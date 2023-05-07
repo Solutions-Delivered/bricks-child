@@ -59,7 +59,7 @@ function automatic_GitHub_updates($data) {
 	      // This way you can still use tags like v1.1 or ver1.1 if desired
 	      'new_version' => $update,
 	      'url'         => 'https://github.com/'.$user.'/'.$repo,
-	      'package'     => $file->assets[0]->browser_download_url,
+	      'package'     => $file->zipball_url,
       );
     }
   }
