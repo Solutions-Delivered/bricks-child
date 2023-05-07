@@ -1,0 +1,7 @@
+.brx-body.main #bricks-preloader {
+    background-color: var(--builder-bg);
+  }
+  
+  #bricks-preloader .title img {
+    filter: invert(75%);
+  }
